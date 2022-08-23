@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/singh981/AppSyncMasterclass-Backend#readme",
   "devDependencies": {
-    "serverless": "^2.4.0"
+    "serverless": "2.4.0",
+    "serverless-appsync-plugin": "^1.14.0"
   }
 }

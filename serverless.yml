@@ -20,9 +20,22 @@ org: singh981
 # Check out our docs for more details
 frameworkVersion: '2'
 
+plugins:
+   - serverless-appsync-plugin
+
 provider:
   name: aws
   runtime: nodejs12.x
+
+package:
+  exclude:
+    - package.json
+    - package-lock.json
+
+
+custom:
+  appSync:
+
 
 # you can overwrite defaults here
 #  stage: dev
