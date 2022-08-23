@@ -1,0 +1,22 @@
+{
+  "name": "appsyncmasterclass-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "sls": "sls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singh981/AppSyncMasterclass-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singh981/AppSyncMasterclass-Backend/issues"
+  },
+  "homepage": "https://github.com/singh981/AppSyncMasterclass-Backend#readme",
+  "devDependencies": {
+    "serverless": "^2.4.0"
+  }
+}
